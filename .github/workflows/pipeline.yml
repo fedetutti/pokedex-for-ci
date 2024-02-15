@@ -15,4 +15,5 @@ jobs:
           fetch-depth: 0
           repository: fedetutti/pokedex-for-ci
           token: ${{ secrets.ACCESS_TOKEN }}
-      - name: cat .github/workflows/hello    
+      - name: run cat command
+        run: cat .github/workflows/hello    
