@@ -16,4 +16,4 @@ jobs:
           repository: fedetutti/pokedex-for-ci
           token: ${{ secrets.ACCESS_TOKEN }}
       - name: run cat command
-        run: cat pokedex-for-ci/.github/workflows/pipeline.yml
+        run: cat pokedex-for-ci/pokedex-for-ci/.github/workflows/pipeline.yml
