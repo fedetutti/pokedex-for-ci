@@ -17,4 +17,3 @@ jobs:
           token: ${{ secrets.ACCESS_TOKEN }}
       - name: run cat command
         run: pwd
-        run: ls -la
