@@ -12,3 +12,4 @@ jobs:
       - name: echo de un mensaje
         run: |
           echo "hello world"
+          echo "pruebita"
