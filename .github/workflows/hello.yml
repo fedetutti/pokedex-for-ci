@@ -1,4 +1,4 @@
-name: Say hello
+name: say hello
 
 on:
   push:
@@ -7,11 +7,9 @@ on:
 
 jobs:
   hello_world:
-    runs-on: ubuntu-18.04
+    runs-on: self-hosted
     steps:
-      - name: Echo the message
+      - name: echo de un mensaje
         run: |
-          echo "Hola midu!"
-      - name: Dime la fecha
-        run: date
-      - run: ls -l
+          echo "hello world"
+          echo "pruebita"
