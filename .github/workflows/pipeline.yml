@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies for testing
         run: npm install --no-audit --no-fund
       - name: E2E test
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v5
         with:
           command: npm run test:e2e
           start: npm run start-test
