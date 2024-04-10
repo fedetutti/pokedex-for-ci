@@ -12,7 +12,7 @@ jobs:
       - name: Checkout del repo
         uses: actions/checkout@v2
         with:
-          ref: 'refs/tags/${{ inputs.tag_name }}'
+          ref: ${{ github.event.inputs.tag }}
           fetch-depth: 0
           repository: fedetutti/pokedex-for-ci
           token: ${{ secrets.ACCESS_TOKEN }}
